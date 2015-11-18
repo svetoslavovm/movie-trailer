@@ -1,7 +1,7 @@
 import webbrowser
 
 
-class Movie():
+class Movie:
     """ A class that store basic movie information """
 
     # Initialize class instance with appropriate values
@@ -18,5 +18,5 @@ class Movie():
 
     # Returns movile title
     def get_title(self):
-        
+
         return self.title
