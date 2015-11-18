@@ -25,7 +25,10 @@ ratatouille = media.Movie(
         'FtZTcwMjQ4MzMzMw@@._V1_SX640_SY720_.jpg'),
     'https://www.youtube.com/watch?v=R1tcS0pBgY8')
 
+# Create movie array
 movies = [toy_story, school_of_rock, ratatouille]
+
+# Open page in browser; paass movies as parameter
 fresh_tomatoes.open_movies_page(movies)
 
 # print ( media.Movie.__doc__ )
